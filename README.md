@@ -173,7 +173,7 @@ artifacts:
 ## 12. Author
  
 **Arjun Koppineni**
-GitHub: [@arjunkoppineni](https://github.com/arjunkoppineni)
+GitHub: [@KIREETI1234](https://github.com/kireeti1234)
  
 ---
  
