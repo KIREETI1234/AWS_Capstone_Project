@@ -41,7 +41,7 @@ Infrastructure is provisioned with **CloudFormation in Region 1** and **Terrafor
 
 ## 5. 🌩 CloudFormation Deployment – Region 1
 
-**📁 File**: `infra/cloudformation/cft.yaml`
+**📁 File**: `infra/cloudformation/template.yaml`
 
 ### 🔍 Key Resources
 - **Networking**: VPC, Public/Private Subnets, NAT Gateway, Route Tables
