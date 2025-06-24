@@ -36,7 +36,8 @@ Infrastructure is provisioned with **CloudFormation in Region 1** and **Terrafor
 
 ## 4. 🏗️ Overall Architecture
 
-![Architecture Diagram](https://raw.githubusercontent.com/KIREETI1234/AWS_Capstone_Project/main/architecture.png)
+<img src="https://raw.githubusercontent.com/KIREETI1234/AWS_Capstone_Project/main/architecture.png" alt="Architecture Diagram" width="600"/>
+
 
 
 
