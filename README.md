@@ -172,7 +172,7 @@ artifacts:
  
 ## 12. Author
  
-**Arjun Koppineni**
+**Padma Kireeti**
 GitHub: [@KIREETI1234](https://github.com/kireeti1234)
  
 ---
