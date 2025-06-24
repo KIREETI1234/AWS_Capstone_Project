@@ -36,7 +36,8 @@ Infrastructure is provisioned with **CloudFormation in Region 1** and **Terrafor
 
 ## 4. 🏗️ Overall Architecture
 
-![Architecture Diagram](/assets/architecture.png)
+![Architecture Diagram](https://raw.githubusercontent.com/kireeti1234/AWS_Capstone_Project/asse/architecture.png)
+
 
 
 ## 5. 🌩 CloudFormation Deployment – Region 1
