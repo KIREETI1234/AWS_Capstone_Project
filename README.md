@@ -36,7 +36,7 @@ Infrastructure is provisioned with **CloudFormation in Region 1** and **Terrafor
 
 ## 4. 🏗️ Overall Architecture
 
-![Architecture Diagram](./assets/architecture.png)
+![Architecture Diagram](/assets/architecture.png)
 
 
 ## 5. 🌩 CloudFormation Deployment – Region 1
