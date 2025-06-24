@@ -78,7 +78,9 @@ terraform validate
 terraform plan
 terraform apply
 
- 🌐 Global Traffic Management (Route 53)
+---
+
+## 7. 🌐 Global Traffic Management (Route 53)
 🧠 Failover Routing
 Record	Region	Role	Health Check
 A (Alias)	us-east-1	Primary	Enabled
