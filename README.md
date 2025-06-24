@@ -181,6 +181,13 @@ GitHub: [@KIREETI1234](https://github.com/kireeti1234)
  
 ```bash
 aws eks update-kubeconfig --region <region> --name <cluster-name>
+sudo apt install helm
+helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+kubectl create namespace ingress-nginx
+helm install ingress-nginx ingress-nginx/ingress-nginx \
+  --namespace ingress-nginx \
+  --set controller.publishService.enabled=true
+kubectl get svc ingress-nginx-controller -n ingress-nginx
 kubectl get nodes
 kubectl get svc
 kubectl logs -l app=myapp
