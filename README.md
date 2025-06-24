@@ -4,7 +4,7 @@
 
 ## 1. 🧾 Introduction
 
-This project sets up a resilient, production-ready, multi-region web application using a 3-tier architecture. It leverages **Amazon EKS** for container orchestration, **Amazon RDS MySQL** for data persistence, and **Route 53** for intelligent global traffic management and failover.
+This project sets up a resilient, production-ready, multi-region web application using a 3-tier architecture. It leverages **Amazon EKS** for container orchestration, **Amazon ECR** for image Storage, **Amazon RDS MySQL** for data persistence, and **Route 53** for intelligent global traffic management and failover.
 
 Infrastructure is provisioned with **CloudFormation in Region 1** and **Terraform in Region 2**, demonstrating best practices for hybrid infrastructure-as-code (IaC) deployments. CI/CD pipelines automate both **frontend (Angular)** and **backend (Spring Boot)** deployments.
 
@@ -36,22 +36,7 @@ Infrastructure is provisioned with **CloudFormation in Region 1** and **Terrafor
 
 ## 4. 🏗️ Overall Architecture
 
-css
-Copy
-Edit
-                      🌐 Internet
-                           │
-                     [ Route 53 ]
-                  /                   \
- 📍 Region 1 (us-east-1)         📍 Region 2 (us-west-2)
- ------------------------       -------------------------
- [ ALB ]                        [ ALB ]
-    │                              │
- [ EKS ]                        [ EKS ]
-    │                              │
-[ Angular + Spring Boot ] [ Angular + Spring Boot ]
-    │                              |
-[ RDS MySQL DB ] [ RDS MySQL (standby/replica) ]
+
 
 
 ## 5. 🌩 CloudFormation Deployment – Region 1
@@ -85,7 +70,7 @@ Edit
 
 ### 🛠 Steps to Deploy
 ```bash
-cd region-2-terraform
+cd infra/cloudformation/cft.yaml
 terraform init
 terraform validate
 terraform plan
